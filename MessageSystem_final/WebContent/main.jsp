@@ -161,7 +161,7 @@
 						<td><%=mList.get(i).getSend() %></td>
 						<td><%=mList.get(i).getContent() %></td>
 						<td><%=mList.get(i).getDate() %></td>
-						<td><a href = "DelOneServiceCon">삭제</a></td>
+						<td><a href = "DelOneServiceCon?num=<%=mList.get(i).getNum() %>">삭제</a></td>
 					</tr>
 					<%} }%>
 				</table>

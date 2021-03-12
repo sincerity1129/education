@@ -114,5 +114,26 @@ public class MessageDAO {
 		}
 		return cnt;
 	}
+	
+	public int deleteSelect(int num) {
+		conn();
+		
+		try {
+		String sql = "delete from message where num = ?";
+		
+		psmt = conn.prepareStatement(sql);		
+		psmt.setInt(1, num);
+		
+		cnt = psmt.executeUpdate();
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			close();
+		}
+		
+		
+		return cnt;
+	}
 
 }

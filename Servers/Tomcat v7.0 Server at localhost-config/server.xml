@@ -62,7 +62,7 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL HTTP/1.1 Connector on port 8080
     -->
-    <Connector URIEncoding="EUC-KR" connectionTimeout="20000" port="8085" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="8085" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -130,7 +130,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="Servlet1day" path="/Servlet1day" reloadable="true" source="org.eclipse.jst.jee.server:Servlet1day"/><Context docBase="Servlet2day" path="/Servlet2day" reloadable="true" source="org.eclipse.jst.jee.server:Servlet2day"/><Context docBase="JSP1day" path="/JSP1day" reloadable="true" source="org.eclipse.jst.jee.server:JSP1day"/><Context docBase="JspTest" path="/JspTest" reloadable="true" source="org.eclipse.jst.jee.server:JspTest"/><Context docBase="Moder1" path="/Moder1" reloadable="true" source="org.eclipse.jst.jee.server:Moder1"/><Context docBase="JSPTest2" path="/JSPTest2" reloadable="true" source="org.eclipse.jst.jee.server:JSPTest2"/><Context docBase="Model2" path="/Model2" reloadable="true" source="org.eclipse.jst.jee.server:Model2"/><Context docBase="MVC_test1" path="/MVC_test1" reloadable="true" source="org.eclipse.jst.jee.server:MVC_test1"/><Context docBase="Cookie" path="/Cookie" reloadable="true" source="org.eclipse.jst.jee.server:Cookie"/><Context docBase="Session" path="/Session" reloadable="true" source="org.eclipse.jst.jee.server:Session"/><Context docBase="Scope" path="/Scope" reloadable="true" source="org.eclipse.jst.jee.server:Scope"/><Context docBase="MessageSystem_final" path="/MessageSystem_final" reloadable="true" source="org.eclipse.jst.jee.server:MessageSystem_final"/></Host>
+      <Context docBase="MessageSystem_final" path="/MessageSystem_final" reloadable="true" source="org.eclipse.jst.jee.server:MessageSystem_final"/></Host>
     </Engine>
   </Service>
 </Server>
