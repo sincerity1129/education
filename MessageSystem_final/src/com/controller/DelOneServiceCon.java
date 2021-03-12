@@ -14,8 +14,7 @@ public class DelOneServiceCon extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		
-		int num = Integer.parseInt(request.getParameter("num"));
-		
+		int num = Integer.parseInt(request.getParameter("num"));		
 		MessageDAO dao = new MessageDAO();
 		
 		int cnt = dao.deleteSelect(num);
@@ -25,7 +24,7 @@ public class DelOneServiceCon extends HttpServlet {
 		}else {
 			System.out.print("삭제 실패..");
 		}
-		response.sendRedirect("main.jsp");
+		response.sendRedirect("main.jsp#two");
 	}
 
 }
