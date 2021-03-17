@@ -1,0 +1,52 @@
+﻿<아이디어 참조 사이트>
+
+1. https://dreamgonfly.github.io/blog/introduction-to-machine-learning/ 
+(머신러닝)
+
+2. https://www.data.go.kr/data/15050366/fileData.do
+ (공공데이터 포털)
+
+3. http://www.wssw.kr/#/product/pro 
+(작물 유통 프로그램)
+
+4. https://www.agrion.kr
+(농업on)
+
+5. https://www.nongnet.or.kr
+(농넷)
+
+6. https://data.mafra.go.kr
+(농림축산부 공공데이터)
+
+7. https://www1.president.go.kr/petitions
+(국민청원)
+
+8.http://ncov.mohw.go.kr/
+(코로나사이트)
+
+9. https://www.whoscored.com/
+(해외축구)
+
+10. http://recipekorea.com
+(레시피코리아)
+
+11. https://www.ciokorea.com
+(티오베)
+
+12. https://doctorbella.kr/
+(닥터벨라)
+
+13. http://www.r-one.co.kr/
+(부동산 통계 정보)
+
+14. https://expert.richgo.ai/
+(리치고)
+
+15. https://play.google.com/store/apps/details?id=kr.co.mosition.landpro
+(땅박사)
+
+16. https://www.valueupmap.com/
+(밸류맵)
+
+17. https://ddangya.com/home/map
+(땅야)
